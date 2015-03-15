@@ -13,7 +13,7 @@ Let's create a page about your favourite games! Go into the `my-first-website` f
 
 We need to create a duplicate copy. Click `File` and `Save As`.
 
-<img src="/assets/make-a-webpage-saveas.png" width="80%" />
+<img src="{{site.baseurl}}/assets/make-a-webpage-saveas.png" width="80%" />
 
 ###Step 2
 You should call the new file `games.html`
@@ -26,7 +26,7 @@ You now have a new web page named games.html. But at the moment it’s just the 
 ###Step 3
 You’ll need to open it and edit the text so that the page is now about your favourite games. Use the example below for ideas. Can you figure out how to download a picture (like the Minecraft logo) for your top game and display it in the page?
 
-<img src="/assets/create-page-games.png" />
+<img src="{{site.baseurl}}/assets/create-page-games.png" />
 
 
 Save the file every so often as you’re working on it. To save click `file` then `save`. That way you won't lose your work if your laptop battery gives out suddenly!
@@ -37,5 +37,5 @@ Every time you save the file, refresh R the web page to see the effect of your m
 
 >What happens if you put the `li` elements inside an `ol` instead of a `ul` element?
 
-<a href="{% post_url 2015-03-15-make-a-homepage %}" class="btn next-step pull-right">Next Step: Make a home page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-15-make-a-homepage %}" class="btn next-step pull-right">Next Step: Make a home page</a>
 

@@ -8,7 +8,7 @@ categories: my-first-website
 
 ###Step 1
 Go into the `my-first-website` folder and open the `about-me.html` file.
-<img src="/assets/edit-webpage-open.png" />
+<img src="{{site.baseurl}}/assets/edit-webpage-open.png" />
 _It opens in your web browser._
 
 ###Step 2
@@ -16,7 +16,7 @@ Now open the same file in a text editor such as Sublime.
 
 ###Step 3
 Arrange the Browser window and the text editor window so that they are alongside one another on your screen.
-<img src="/assets/edit-page-sublime-browser.png" />
+<img src="{{site.baseurl}}/assets/edit-page-sublime-browser.png" />
 
 
 ###Step 4
@@ -25,7 +25,7 @@ Change the text in the page so that it’s about you — not _Lee Go_.
 ###Step 5
 After you have changed some text, save the file in Sublime and then refresh the web page in your browser window. To do this click the Refresh symbol.
 
-<img src="/assets/edit-page-refresh.png" width="60%" />
+<img src="{{site.baseurl}}/assets/edit-page-refresh.png" width="60%" />
 
 _What happens?_
 
@@ -50,5 +50,5 @@ You can see now that a web page is just text typed into a text file. How the tex
 {% endhighlight %}
 
 
-<a href="{% post_url 2015-03-15-make-a-new-webpage %}" class="btn next-step pull-right">Next Step: Make a new web page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-15-make-a-new-webpage %}" class="btn next-step pull-right">Next Step: Make a new web page</a>
 

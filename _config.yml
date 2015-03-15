@@ -4,7 +4,7 @@ email: docklands.ie@coderdojo.com
 description: > # this means to ignore newlines until "baseurl:"
   Docklands Dojo is a free programming club for young people aged 7 - 17. Running every second Wednesday starting 18th March, from 6:00 - 7:30pm, young people will initially learn how to build websites using HTML, CSS.
 baseurl: "/docklands-dojo" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://michaelfbradley.github.io/" # the base hostname & protocol for your site
 twitter_username: docklandsdojo
 github_username:  jekyll
 

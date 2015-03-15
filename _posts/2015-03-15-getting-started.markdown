@@ -18,7 +18,7 @@ everything you need to get started.
 You will need an editor to create your website. We recommend using Sublime. It is free and can
 be [downloaded here](http://www.sublimetext.com/2)
 
-<img src="/assets/sublime.png" />
+<img src="{{site.baseurl}}/assets/sublime.png" />
 
 
-<a href="{% post_url 2015-03-15-edit-a-web-page %}" class="btn next-step pull-right">Next Step: Edit a web page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-15-edit-a-web-page %}" class="btn next-step pull-right">Next Step: Edit a web page</a>
