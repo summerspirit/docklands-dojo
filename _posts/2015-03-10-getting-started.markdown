@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "1. Getting Started"
-date:   2015-03-15 20:28:49
+title:  "Getting Started"
+date:   2015-03-10 20:28:49
 categories: my-first-website
+step: 1
 ---
 
 Welcome to the _DocklandsDojo_! Today you are going to learn to create your first website!
@@ -21,4 +22,4 @@ be [downloaded here](http://www.sublimetext.com/2)
 <img src="{{site.baseurl}}/assets/sublime.png" />
 
 
-<a href="{{site.baseurl}}{% post_url 2015-03-15-edit-a-web-page %}" class="btn next-step pull-right">Next Step: Edit a web page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-11-edit-a-web-page %}" class="btn next-step pull-right">Next Step: Edit a web page</a>

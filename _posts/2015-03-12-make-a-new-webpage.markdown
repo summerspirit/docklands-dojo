@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "3. Make a web page"
-date:   2015-03-15 21:28:49
+title:  "Make a web page"
+date:   2015-03-12 21:28:49
 categories: my-first-website
+step: 3
 ---
 
 
@@ -37,5 +38,5 @@ Every time you save the file, refresh R the web page to see the effect of your m
 
 >What happens if you put the `li` elements inside an `ol` instead of a `ul` element?
 
-<a href="{{site.baseurl}}{% post_url 2015-03-15-make-a-homepage %}" class="btn next-step pull-right">Next Step: Make a home page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-13-make-a-homepage %}" class="btn next-step pull-right">Next Step: Make a home page</a>
 

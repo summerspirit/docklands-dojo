@@ -6,16 +6,10 @@ layout: default
 
   <h1 class="page-heading"><strong>Sushi Cards:</strong> My first website</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts | sort_by: "name" %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+  <div class="sushi-collection">
+    {% for post in site.posts reversed %}
+      <a class="sushi-card" href="{{ post.url | prepend: site.baseurl }}"><span>{{ post.step }}</span><br />{{ post.title }}</a>
     {% endfor %}
-  </ul>
+  </div>
 
 </div>

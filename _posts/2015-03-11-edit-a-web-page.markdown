@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "2. Edit a Webpage"
-date:   2015-03-15 20:28:49
+title:  "Edit a Webpage"
+date:   2015-03-11 20:28:49
 categories: my-first-website
+step: 2
 ---
 
 
@@ -50,5 +51,5 @@ You can see now that a web page is just text typed into a text file. How the tex
 {% endhighlight %}
 
 
-<a href="{{site.baseurl}}{% post_url 2015-03-15-make-a-new-webpage %}" class="btn next-step pull-right">Next Step: Make a new web page</a>
+<a href="{{site.baseurl}}{% post_url 2015-03-12-make-a-new-webpage %}" class="btn next-step pull-right">Next Step: Make a new web page</a>
 
