@@ -11,7 +11,7 @@ Welcome to the _DocklandsDojo_! Today you are going to learn to create your firs
 Before getting started, you need to complete the following two steps.
 
 ###Step One
-You need to download this [starter kit](http://www.example.com) before getting started. It contains
+You need to download this [starter kit]({{site.baseurl}}/assets/my-first-website.zip) before getting started. It contains
 everything you need to get started.
 
 
