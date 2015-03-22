@@ -14,7 +14,7 @@ Go into the `my-first-website` folder, copy the `about-me.html` file (again!) an
 
 Home pages are often given a file name of `index.html`
 
-> Hint: Go back to step three
+> Hint: Go back to [Step Three: Make a New Web Page](http://docklandsdojo.github.io/docklands-dojo/my-first-website/2015/03/12/make-a-new-webpage.html)
 
 ###Step 2
 Edit `index.html` so that it's like the one in the screenshot below (except that it has your name in it, not Lee’s)
@@ -35,6 +35,8 @@ They always have the same pattern — start and end a tags —
 <a href="filename">Link text</a>
 {% endhighlight %}
 
+Notice that the starting a tag is inside the same set of < > as href and the filename, which is different than the ending a tag, which is all by itself.
+
 ####For example
 
 {% highlight html %}
@@ -49,7 +51,8 @@ Make three more pages and add the links from the Home page.
 
 
 
-Some suggestions (your own ideas welcome!) —
+Some suggestions: 
+(Your own ideas welcome too!)
 
 | Title  | File Name |
 |---|--- |
