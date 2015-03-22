@@ -20,13 +20,13 @@ Here's what you'll need installed on your computer:
 
 [Jekyll](#installing-jekyll-and-github-pages) | [GitHub Pages](#installing-jekyll-and-github-pages)
 
-[**Getting the Project Onto Your Computer and Up and Running Locally**]
+**Getting the Project Onto Your Computer and Up and Running Locally**
 
 [Forking and Cloning the Project](#getting-started---github)
 
 [Setting Up Your Local Environment](#getting-started---setting-up-the-project-locally)
 
-[**Guidelines for Changing Code**]
+**Guidelines for Changing Code**
 
 [Contributors' Guidelines](#guidelines)
 
@@ -215,5 +215,9 @@ Once you have finished the work on that feature, and you want to work on somethi
 ### Guidelines
 
 Make sure to use a new branch for each new feature.
+
+### How To: Add a Page
+
+See the [Add a Page docs](adding.md)
 
 Thanks for contributing!
